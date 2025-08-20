@@ -173,6 +173,7 @@ field spaniel
 finnish spitz
 german pinscher
 german shepherd dog
+german shepherd
 german wirehaired pointer
 glen of imaal terrier
 greyhound

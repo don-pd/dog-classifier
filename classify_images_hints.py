@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/classify_images_hints.py
 #                                                                             
-# PROGRAMMER: 
-# DATE CREATED: Don P D
+# PROGRAMMER: Don P D
 # DATE CREATED: 20-08-2025                            
 # REVISED DATE: 
 # PURPOSE: This is a *hints* file to help guide students in creating the 

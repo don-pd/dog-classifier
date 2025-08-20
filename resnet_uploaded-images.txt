@@ -3,128 +3,53 @@ Command Line Arguments:
     arch = resnet 
  dogfile = dognames.txt
 
-Pet Image Label Dictionary has 20 key-value pairs.
-Below are 10 of them:
- 1 key:       Boston_terrier_02303.jpg  label:             boston terrier
- 2 key:                Boxer_02426.jpg  label:                      boxer
- 3 key:                     cat_01.jpg  label:                        cat
- 4 key:                     cat_02.jpg  label:                        cat
- 5 key:                     cat_07.jpg  label:                        cat
- 6 key:            Dalmatian_04037.jpg  label:                  dalmatian
- 7 key:            Dalmatian_04068.jpg  label:                  dalmatian
- 8 key:            fox_squirrel_01.jpg  label:               fox squirrel
- 9 key:                   gecko_02.jpg  label:                      gecko
-10 key:                   gecko_80.jpg  label:                      gecko
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     cat_02.jpg  label:                        cat
+ 2 key:            Dalmatian_04037.jpg  label:                  dalmatian
+ 3 key:            german_shepherd.jpg  label:            german shepherd
+ 4 key:           golden_retriever.jpg  label:           golden retriever
 
      MATCH:
 
-      Boston_terrier_02303.jpg: 
-Real:             boston terrier   Classifier:    boston bull, boston terrier  
-PetLabelDog: 1  ClassLabelDog: 1
-
-               Boxer_02426.jpg: 
-Real:                      boxer   Classifier:                          boxer  
-PetLabelDog: 1  ClassLabelDog: 1
-
                     cat_02.jpg: 
 Real:                        cat   Classifier:          tabby, tabby cat, cat  
-PetLabelDog: 0  ClassLabelDog: 0
-
-                    cat_07.jpg: 
-Real:                        cat   Classifier:              egyptian cat, cat  
 PetLabelDog: 0  ClassLabelDog: 0
 
            Dalmatian_04037.jpg: 
 Real:                  dalmatian   Classifier: dalmatian, coach dog, carriage dog  
 PetLabelDog: 1  ClassLabelDog: 1
 
-           Dalmatian_04068.jpg: 
-Real:                  dalmatian   Classifier: dalmatian, coach dog, carriage dog  
+           german_shepherd.jpg: 
+Real:            german shepherd   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
 PetLabelDog: 1  ClassLabelDog: 1
 
-           fox_squirrel_01.jpg: 
-Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger  
-PetLabelDog: 0  ClassLabelDog: 0
-
-    Golden_retriever_05195.jpg: 
+          golden_retriever.jpg: 
 Real:           golden retriever   Classifier:               golden retriever  
 PetLabelDog: 1  ClassLabelDog: 1
-
-    Golden_retriever_05223.jpg: 
-Real:           golden retriever   Classifier:               golden retriever  
-PetLabelDog: 1  ClassLabelDog: 1
-
-    Golden_retriever_05257.jpg: 
-Real:           golden retriever   Classifier:               golden retriever  
-PetLabelDog: 1  ClassLabelDog: 1
-
-          Great_dane_05320.jpg: 
-Real:                 great dane   Classifier:                     great dane  
-PetLabelDog: 1  ClassLabelDog: 1
-
- Miniature_schnauzer_06884.jpg: 
-Real:        miniature schnauzer   Classifier:            miniature schnauzer  
-PetLabelDog: 1  ClassLabelDog: 1
-
-             polar_bear_04.jpg: 
-Real:                 polar bear   Classifier: ice bear, polar bear, ursus maritimus, thalarctos maritimus  
-PetLabelDog: 0  ClassLabelDog: 0
-
-              Poodle_07927.jpg: 
-Real:                     poodle   Classifier:        standard poodle, poodle  
-PetLabelDog: 1  ClassLabelDog: 1
-
-              Poodle_07956.jpg: 
-Real:                     poodle   Classifier:        standard poodle, poodle  
-PetLabelDog: 1  ClassLabelDog: 1
-
-                Rabbit_002.jpg: 
-Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit  
-PetLabelDog: 0  ClassLabelDog: 0
 
  NOT A MATCH:
 
-                    cat_01.jpg: 
-Real:                        cat   Classifier:   norwegian elkhound, elkhound  
-PetLabelDog: 0  ClassLabelDog: 1
-
-                  gecko_02.jpg: 
-Real:                      gecko   Classifier: african chameleon, chamaeleo chamaeleon  
-PetLabelDog: 0  ClassLabelDog: 0
-
-                  gecko_80.jpg: 
-Real:                      gecko   Classifier: tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui  
-PetLabelDog: 0  ClassLabelDog: 0
-
-    Golden_retriever_05182.jpg: 
-Real:           golden retriever   Classifier:                       leonberg  
-PetLabelDog: 1  ClassLabelDog: 1
-
-# Total Images 20 # Matches: 16 # NOT Matches: 4
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+{'n_dogs_img': 3, 'n_match': 4, 'n_correct_dogs': 3, 'n_correct_notdogs': 1, 'n_correct_breed': 3, 'n_images': 4, 'n_notdogs_img': 1, 'pct_match': 100.0, 'pct_correct_dogs': 100.0, 'pct_correct_breed': 100.0, 'pct_correct_notdogs': 100.0}
 
  ** Statistics from calculates_results_stats() function:
-N Images: 20  N Dog Images: 12  N NotDog Images:  8 
-Pct Corr dog:   0.0 Pct Corr NOTdog:  62.5  Pct Corr Breed:   0.0
+N Images:  4  N Dog Images:  3  N NotDog Images:  1 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
 
  ** Check Statistics - calculated from this function as a check:
-N Images: 20  N Dog Images: 12  N NotDog Images:  8 
-Pct Corr dog: 100.0 Pct Corr NOTdog:  87.5  Pct Corr Breed:  91.7
+N Images:  4  N Dog Images:  3  N NotDog Images:  1 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
 
 
 *** Results Summary for CNN Model Architecture RESNET ***
-N Images            :  20
-N Dog Images        :  12
-N Not-Dog Images    :   8
+N Images            :   4
+N Dog Images        :   3
+N Not-Dog Images    :   1
  
-pct_match           : 0.00
-pct_correct_dogs    : 0.00
-pct_correct_breed   : 0.00
-pct_correct_notdogs : 62.50
+pct_match           : 100.00
+pct_correct_dogs    : 100.00
+pct_correct_breed   : 100.00
+pct_correct_notdogs : 100.00
 
-INCORRECT Dog/NOT Dog Assignments:
-Real:                        cat   Classifier:   norwegian elkhound, elkhound
-
-INCORRECT Dog Breed Assignment:
-Real:           golden retriever   Classifier:                       leonberg
-
-** Total Elapsed Runtime: 0:0:1
+** Total Elapsed Runtime: 0:0:0

@@ -95,7 +95,7 @@ def main():
     
     # Function that checks Results Dictionary for is-a-dog adjustment using results
     check_classifying_labels_as_dogs(results)
-
+   
 
     # TODO 5: Define calculates_results_stats function within the file calculates_results_stats.py
     # This function creates the results statistics dictionary that contains a
@@ -104,6 +104,7 @@ def main():
     # Calculates results of run and puts statistics in the Results Statistics
     # Dictionary - called results_stats
     results_stats = calculates_results_stats(results)
+    print(results_stats)
 
     # Function that checks Results Statistics Dictionary using results_stats
     check_calculating_results(results, results_stats)
